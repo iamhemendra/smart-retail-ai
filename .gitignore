@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+*.egg-info/
+
+# trained model artifacts (large binaries — don't commit; regenerate via notebooks)
+app/models/*.h5
+app/models/*.pkl
+app/models/*.pt
+
+.env
+.DS_Store
+.ipynb_checkpoints/
+*.log

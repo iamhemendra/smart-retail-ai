@@ -1,0 +1,24 @@
+# --- API layer ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-multipart==0.0.9
+
+# --- Computer Vision ---
+opencv-python-headless==4.10.0.84
+tensorflow==2.17.0
+face_recognition==1.3.0        # requires dlib (see README/Dockerfile notes)
+numpy==1.26.4
+Pillow==10.4.0
+
+# --- NLP ---
+scikit-learn==1.5.2
+joblib==1.4.2
+nltk==3.9.1
+spacy==3.7.6
+
+# --- Utilities / testing ---
+pandas==2.2.3
+httpx==0.27.2
+pytest==8.3.3
+python-dotenv==1.0.1
