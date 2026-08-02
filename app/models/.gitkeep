@@ -1,0 +1,6 @@
+Trained model artifacts land here after running the notebooks:
+  product_classifier.h5
+  face_db.pkl
+  sentiment_model.pkl
+  vectorizer.pkl
+  chatbot_model.pkl (optional ML fallback)
