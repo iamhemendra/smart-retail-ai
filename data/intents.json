@@ -1,0 +1,104 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening"],
+      "responses": ["Hi! How can I help you today?", "Hello! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "thanks bye"],
+      "responses": ["Goodbye! Have a great day.", "Thanks for stopping by!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "when will my order arrive"],
+      "responses": ["You can track your order status from the 'My Orders' section, or share your order ID and I'll look it up."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["how do i return an item", "return policy", "can i return this", "refund policy"],
+      "responses": ["Items can be returned within 30 days of delivery in original condition. Refunds are processed within 5-7 business days."]
+    },
+    {
+      "tag": "shipping_time",
+      "patterns": ["how long does shipping take", "delivery time", "when will it ship", "shipping estimate"],
+      "responses": ["Standard shipping takes 3-5 business days. Express shipping takes 1-2 business days."]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": ["what are your store hours", "when are you open", "store timing", "opening hours"],
+      "responses": ["Our stores are open Monday to Saturday, 10 AM to 9 PM, and Sunday 11 AM to 6 PM."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["what payment methods do you accept", "can i pay with card", "do you accept upi", "payment options"],
+      "responses": ["We accept credit/debit cards, UPI, net banking, and popular wallets."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["cancel my order", "how do i cancel an order", "i want to cancel"],
+      "responses": ["Orders can be cancelled within 1 hour of placing them from the 'My Orders' page."]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": ["do you have a loyalty program", "rewards points", "membership benefits"],
+      "responses": ["Yes! Our loyalty program gives 1 point per $1 spent, redeemable for discounts on future orders."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["is this in stock", "product availability", "when will this be back in stock"],
+      "responses": ["Please share the product name or code and I'll check current stock for you."]
+    },
+    {
+      "tag": "size_guide",
+      "patterns": ["what size should i get", "size chart", "sizing guide"],
+      "responses": ["You can find our size chart on each product page under the 'Size Guide' tab."]
+    },
+    {
+      "tag": "contact_human",
+      "patterns": ["talk to a human", "customer support agent", "speak to someone", "connect me to support"],
+      "responses": ["Connecting you to a human agent now — please hold on."]
+    },
+    {
+      "tag": "discount_code",
+      "patterns": ["do you have any discount codes", "coupon code", "promo code"],
+      "responses": ["Check the 'Offers' page for current promo codes, or sign up for our newsletter for exclusive discounts."]
+    },
+    {
+      "tag": "exchange_item",
+      "patterns": ["can i exchange this item", "exchange for a different size", "swap my order"],
+      "responses": ["Exchanges are available within 15 days of delivery, subject to stock availability of the new item."]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["does this have a warranty", "warranty period", "product warranty"],
+      "responses": ["Most electronics come with a 1-year manufacturer warranty. Check the product page for specifics."]
+    },
+    {
+      "tag": "gift_wrap",
+      "patterns": ["do you offer gift wrapping", "gift wrap option", "can i add a gift message"],
+      "responses": ["Yes, gift wrapping and a personalized message are available at checkout for a small fee."]
+    },
+    {
+      "tag": "international_shipping",
+      "patterns": ["do you ship internationally", "international delivery", "ship outside the country"],
+      "responses": ["We currently ship to select countries. Enter your address at checkout to see if delivery is available."]
+    },
+    {
+      "tag": "app_help",
+      "patterns": ["the app is not working", "app keeps crashing", "having trouble with the website"],
+      "responses": ["Sorry about that! Try clearing your app cache or reinstalling. If it persists, I'll connect you to tech support."]
+    },
+    {
+      "tag": "price_match",
+      "patterns": ["do you price match", "price adjustment", "found it cheaper elsewhere"],
+      "responses": ["We offer price matching within 7 days of purchase for identical items from authorized retailers."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "appreciate it"],
+      "responses": ["You're welcome! Anything else I can help with?"]
+    }
+  ]
+}
